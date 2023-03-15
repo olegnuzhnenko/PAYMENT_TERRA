@@ -303,7 +303,7 @@ nav.scrolled-down {
     border-radius: 30px;
     box-shadow: 0px 18px 50px -15px rgba(25, 42, 89, 0.2);
     padding: 30px 25px 40px 30px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .face-wrapper {
@@ -320,6 +320,7 @@ nav.scrolled-down {
 
 .products-content-wrapper {
     height: 50vh;
+
     background-color: #10192b;
     padding-top: 300px;
     padding-bottom: 105px;
@@ -363,6 +364,7 @@ nav.scrolled-down {
 
 .products-box {
     display: flex;
+    justify-content: center;
     gap: 20px;
     padding-top: 20px;
 }
@@ -378,7 +380,7 @@ nav.scrolled-down {
 }
 
 .container .card .face {
-    width: 100%;
+    width: 280px;
     height: 200px;
     transition: 0.5s;
 }
@@ -426,7 +428,7 @@ nav.scrolled-down {
     padding: 0;
     color: #01064e;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 .container .card:hover .face.face1 .content h3 {
@@ -913,6 +915,33 @@ h2 {
 
 }
 
+.form-button{
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 14px;
+    width: 150px;
+    height: 40px;
+    background-color: #9da4b3;
+    color: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+    transition: 0.5s;
+
+}
+
+.form-button:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #657492;
+    transition-duration: 300ms;
+    cursor: pointer;
+}
+
 .apply-wrapper {
     background-color: #172755;
     position: relative;
@@ -1138,6 +1167,9 @@ footer {
     padding: 200px 0 0;
 }
 
+.terms-text p{
+    padding-bottom: 20px;
+}
 @media screen and (max-width: 480px) {
 
 
