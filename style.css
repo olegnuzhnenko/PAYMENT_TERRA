@@ -1450,8 +1450,9 @@ footer {
     }
 
     .join{
+        padding-top: 210px;
         width: 100vw;
-        height: 150vh;
+        height: 170vh;
 
     }
 
@@ -1555,9 +1556,8 @@ footer {
 
     .subscribe-wrapper{
         width: 100vw;
-        height: 120vh;
-        padding-bottom: 0px;
-        padding-top: 0px;
+        height: 150vh;
+       
     }
 
     .subscribe{
