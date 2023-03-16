@@ -59,9 +59,10 @@ document.addEventListener(`scroll`, onScroll)
 /////////////выезжающие дивы
 
 
-const headTitle = gsap.utils.toArray(`.title-text`);
+// const headTitle = gsap.utils.toArray(`.title-text`);
 const headGif = gsap.utils.toArray('.title-gif1');
 const productsTitle = gsap.utils.toArray('.products-title');
+const productsSubTitle = gsap.utils.toArray('.products-subtitle');
 const cards = gsap.utils.toArray(`.card`);
 const aboutText = gsap.utils.toArray(`.about-text`);
 const aboutLogo = gsap.utils.toArray(`.myface1`);
@@ -77,26 +78,26 @@ const subscribeParagraph = gsap.utils.toArray(`.subscribe p`)
 const subscribeForm = gsap.utils.toArray(`.sub-form`)
 const map = gsap.utils.toArray(`.map`)
 
-headTitle.forEach(title => {
-    const anim = gsap.fromTo(
-        title, {
-            autoAlpha: 0,
-            y: -800,
-            x: 0,
-            rotate: 0
-        }, {
-            duration: 1.5,
-            autoAlpha: 1,
-            y: 0,
-            x: 0,
-            rotate: 0
-        }
-    );
-    ScrollTrigger.create({
-        trigger: title,
-        animation: anim,
-    });
-});
+// headTitle.forEach(title => {
+//     const anim = gsap.fromTo(
+//         title, {
+//             autoAlpha: 0,
+//             y: -800,
+//             x: 0,
+//             rotate: 0
+//         }, {
+//             duration: 1.5,
+//             autoAlpha: 1,
+//             y: 0,
+//             x: 0,
+//             rotate: 0
+//         }
+//     );
+//     ScrollTrigger.create({
+//         trigger: title,
+//         animation: anim,
+//     });
+// });
 
 headGif.forEach(gif => {
     const anim = gsap.fromTo(
@@ -164,6 +165,27 @@ aboutText.forEach(text => {
 
 
 productsTitle.forEach(title => {
+    const anim = gsap.fromTo(
+        title, {
+            autoAlpha: 0,
+            y: 200,
+            x: 0,
+            rotate: 0
+        }, {
+            duration: 1.5,
+            autoAlpha: 1,
+            y: 0,
+            x: 0,
+            rotate: 0
+        }
+    );
+    ScrollTrigger.create({
+        trigger: title,
+        animation: anim,
+    });
+});
+
+productsSubTitle.forEach(title => {
     const anim = gsap.fromTo(
         title, {
             autoAlpha: 0,

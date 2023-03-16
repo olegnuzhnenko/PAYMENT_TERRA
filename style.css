@@ -1734,7 +1734,7 @@ footer {
 
     .title-text {
         width: auto;
-
+        z-index: 0;
     }
 
     .title-text h1 {
@@ -1743,6 +1743,7 @@ footer {
         padding: 40px 20px 0 20px;
         text-align: center;
         line-height: 54px;
+        
     }
 
     .title-text h3 {
@@ -1763,6 +1764,7 @@ footer {
     .planet-background {
         height: 400px;
         margin-left: 0;
+        z-index: 0;
     }
 
     .about {
