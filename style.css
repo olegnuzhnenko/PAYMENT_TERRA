@@ -16,7 +16,7 @@ body {
     font-family: Work Sans, Arial;
     background-color: #f8f9ff;
     width: 100vw;
-    
+    overflow-x:hidden;
 
 }
 
