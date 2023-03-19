@@ -57,7 +57,7 @@ nav.scrolled-down {
 }
 
 .flex {
-    width: 100%;
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -1239,6 +1239,7 @@ footer {
 
     .flex {
         padding-left: 20px;
+        width: 100vw;
 
     }
 
@@ -1720,6 +1721,7 @@ footer {
     }
 
     .header-nav {
+        width: 100vw;
         display: none;
     }
 
